@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>jenny wen: liza</title>
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.5.5/css/tachyons.min.css"/>
+    <link rel="stylesheet" href="assets/css/theme.css"/>
+    <link rel="stylesheet" href="assets/css/index.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body class="mw6 mw7-ns center serif fw4 silver f4 serif-body mv6">
+    <nav class="serif-body mw6 center fw4">
+      <a class="link dim dark-gray f5" href="index.html">jenny wen</a>
+    </nav>
+    <section class="tr mw6 center mt1 cf">
+      <h1 class="fw9 dark-gray serif f-subheadline">3<br>liza</h1>
+      <p class="f5 gray lh-copy mw5 fr cf mb3">
+          As artificial intelligence becomes ever more accessible, chatbots are finding new use cases, and designers are predicting that they’ll become an integral part of our lives in the next few years. This prototype will implement chatbot design principles in a mental health application.
+      </p>
+    </section>
+    <section class="center mw6 cf">
+      <p class="lh-copy">Chatbots have been implemented for a wide array of uses including commerce, ride-hailing, and as personal assistants. I got curious about interfacing with a computer instead of a person could be taken advantage of in order to maintain mental well-being. As a result, the design question I left off with was:</p>
+    </section>
+
+    <section class="cf mw7">
+      <h3 class="f2 lh-copy fw2 i dark-gray">
+        How might we create a conversational interface that can be used as a day-to-day mental health resource?
+      </h3>
+    </section>
+
+    <section class="center mw6 cf">
+      <h2 class="f1 f-subheadline serif dark-gray">goal</h2>
+      <p class="lh-copy">Although chatbots originated in psychotherapy (see: <a class="link underline dim silver" href="https://en.wikipedia.org/wiki/ELIZA">ELIZA</a>), I didn’t want to the chatbot I was designing to be a reaction to mental illness—I wanted it to help people maintain good mental health at all times. I wanted the chatbot to be more like a trusted friend than a psychotherapist.</p>
+
+      <h2 class="f1 ttl f-subheadline serif dark-gray">Metrics</h2>
+      <p class="lh-copy">A metric to keep in mind throughout the design process and to make sure the project is successful:</p>
+      <p class="lh-copy">Frequency of interactions: The length of interactions shouldn’t need to be very high, but ideally someone is interacting with the chatbot often in order to keep their mental health intact.</p>
+
+      <h2 class="f1 f-subheadline serif dark-gray">research</h2>
+      <p class="lh-copy">In order to learn more about what other resources and techniques there might be out there for mental well-being, I looked at some apps and some therapy techniques:</p>
+
+      <div class="f3 lh-title dark-gray">How to look after your mental health, Mental Health Foundation, UK</div>
+      <p class="lh-copy">
+        The Mental Health Foundation suggests the following practices in order to maintain good mental health:</p>
+      <ol class="list pl0">
+        <li>Talk about your feelings</li>
+        <li>Keep active</li>
+        <li>Eat well</li>
+        <li>Drink sensibly</li>
+        <li>Keep in touch</li>
+        <li>Ask for help</li>
+        <li>Take a break</li>
+        <li>Do something you’re good at</li>
+        <li>Accept who you are</li>
+        <li>Care for others</li>
+      </ol>
+      <p class="lh-copy">
+        These practices help set a good precedence for potential actions and reminders that the chatbot can help with.
+      </p>
+      <div class="f3 lh-title dark-gray">Joy</div>
+    </section>
+
+    <section class="mw7 mv3 center fr cf">
+      <img src="assets/img/prototype-chatbot/joy.png" />
+    </section>
+
+    <section class="center mw6 cf">
+      <p class="lh-copy">
+        Joy is an existing Messenger chatbot that helps users track their mood, by checking in and asking how users feel, and then displaying diagnostics on their mood over time. I tried it out and enjoyed the prompts enabled by Messenger’s bot platform that allowed me to respond quickly. I wanted to build on Joy’s functionality to include other suggestions to users to maintain their well-being, outside of just mood tracking.</p>
+      <div class="f3 lh-title dark-gray">Gratitude log</div>
+
+    </section>
+
+    <section class="mw7 mv3 center fr cf">
+      <img src="assets/img/prototype-chatbot/gratitude-log.png" />
+      <p class="tr f5"><a class="link silver dim" href="http://www.bohoberry.com/gratitude/" target="_blank">Source: Boho Berry</a></p>
+    </section>
+
+    <section class="center mw6 cf">
+      <p class="lh-copy">
+        Gratitude logs are a practice often suggested by psychotherapists to help patients stay mentally well, as well as for healing when patients may be depressed or anxious. A <a class="link underline dim silver" href="http://ei.yale.edu/wp-content/uploads/2013/11/jclp22020.pdf">study from the University of California, Davis</a> shows that practicing gratitude on a regular basis and reduce the lifetime risk of depression, anxiety, and substance abuse while also lowering blood pressure and improving immune functions. Practicing gratitude often takes the form of introspection and then recording thoughts of gratitude in some form of journal.
+      </p>
+      <div class="f3 lh-title dark-gray">Headspace</div>
+    </section>
+
+    <section class="mw7 mv3 center tc cf">
+      <img src="assets/img/prototype-chatbot/headspace.png" />
+      <p class="tr f5"><a class="link silver dim" href="http://headspace.com" target="_blank">Source: Headspace</a></p>
+    </section>
+
+    <section class="center mw6 cf">
+      <p class="lh-copy">
+        <a class="link underline dim silver" href="http://headspace.com">Headspace</a> is a mobile app that promotes mental well-being through regular meditation. The app contains small modules around ten minutes of length that guide users through the practice of meditation at different levels. By scheduling meditation for the same time everyday, the app aims to help users build a habit out of maintaining mental well-being.
+      </p>
+
+      <h2 class="f1 f-subheadline serif dark-gray">workflow</h2>
+
+      <p class="lh-copy">Based on what I found in the research section, I decided on some set functionality that wasn’t addressed with other apps, and that would make sense to incorporate in a conversational interface.</p>
+
+    </section>
+
+    <section class="mw7 mv3 center fr cf">
+      <img src="assets/img/prototype-chatbot/functionality.png" />
+    </section>
+
+    <section class="center mw6 cf">
+      <p class="lh-copy">
+        From there, I devised a workflow in which the chatbot would introduce itself and get a user set up, and then check in on regular intervals. From the data collected everyday, the chatbot could then alert users based on atypical behaviour, or just for daily reminders to do things like meditate or exercise.
+      </p>
+    </section>
+
+    <section class="mw7 mv3 center fr cf">
+      <img src="assets/img/prototype-chatbot/workflow.png" />
+    </section>
+
+    <section class="center mw6 cf">
+      <p class="lh-copy">
+        Then I came up with a simple, barebones workflow that included an Introduction phase to help with discoverability, a Setup phase to determine when to alert users and learn about their habits, and then reminders in morning, night, and at regular intervals during the day.
+      </p>
+    </section>
+
+    <section class="mw7 mv3 center fr cf">
+      <img src="assets/img/prototype-chatbot/workflow-2.png" />
+    </section>
+
+    <section class="center mw6 cf">
+      <p class="lh-copy">Inspired by the original ELIZA, I decided to name my chatbot Liza to pay tribute to her origins. I used a <a class="link underline dim silver" href="https://bots.mockuuups.com/">Facebook Messenger Bot UI Kit</a> to flesh out the workflow to something like this:</p>
+    </section>
+
+    <section class="mw7 mv3 center fr cf">
+      <img src="assets/img/prototype-chatbot/workflow-3.png" />
+    </section>
+
+    <section class="center mw6 cf">
+
+      <h2 class="f1 f-subheadline serif dark-gray">chatbot design principles</h2>
+
+      <p class="lh-copy">Based on the design principles from my case study on conversational interfaces, I designed the following features into my mental health chatbot, Liza.</p>
+      <div class="f3 lh-title dark-gray">First impressions are important</div>
+    </section>
+
+    <section class="mw7 mv3 center fr cf">
+      <img src="assets/img/prototype-chatbot/intro.png" />
+    </section>
+
+    <section class="center mw6 cf">
+      <p class="lh-copy">
+        I wanted to make the first interaction with Liza friendly, concise, and actionable. Tapping on “Get started” puts the user right into the set up flow, while “Learn more” helps them get familiarized with what Liza is all about.
+        <div class="f3 lh-title dark-gray">FIt’s still a bot</div>
+      </section>
+
+    <section class="mw7 mv3 center fr cf">
+      <img src="assets/img/prototype-chatbot/setup.png" />
+    </section>
+
+    <section class="center mw6 cf">
+      <p class="lh-copy">
+        While I tried to make Liza’s voice friendly and included emojis to break up her sentences, I don’t try to overstep with needless conversation, and I have her acknowledge that she’s a bot so that the user is never under any misconception that they’re speaking with a human. Also, I plan on having her respond almost immediately, without that weird typing animation, because we all know there’s no one actually typing on the other end.
+      </p>
+
+      <div class="f3 lh-title dark-gray">There’s a time and place for a bot</div>
+    </section>
+
+      <section class="mw7 mv3 center fr cf">
+        <img src="assets/img/prototype-chatbot/resources.png" />
+      </section>
+
+      <section class="center mw6 cf">
+        <p class="lh-copy">
+          Liza is only defined to log mood and gratitude, as well as remind people to exercise and meditate. Anything out of that scope is automatically directed to other mental health resources, whether it be a medically-approved website or listings for local mental health resources.
+        </p>
+
+        <div class="f3 lh-title dark-gray">Make it discoverable</div>
+      </section>
+
+      <section class="mw7 mv3 center fr cf">
+        <img src="assets/img/prototype-chatbot/help.png" />
+      </section>
+
+      <section class="center mw6 cf">
+        <p class="lh-copy">
+          By listing some of her commands right away, Liza is discoverable, but also transparent. These commands are short, memorable and help users get started with her functionality.
+        </p>
+
+        <div class="f3 lh-title dark-gray">Simple, not strenuous</div>
+      </section>
+
+      <section class="mw7 mv3 center fr cf">
+        <img src="assets/img/prototype-chatbot/morning.png" />
+      </section>
+
+      <section class="center mw6 cf">
+        <p class="lh-copy">
+          I took advantage of Messenger’s built in button functionality to help users input their feelings without having to type it. This way, there’s less resistance to reporting their moods, and it also limits their choices.
+        </p>
+        <h2 class="f1 f-subheadline serif dark-gray">next steps</h2>
+        <p class="lh-copy">
+          While I developed the overall workflow for getting started with Liza, I didn’t flesh out the feedback loop of what a mood log or gratitude log would look like once a user has inputted several days of data, and how that would look when I presented that to them.
+        </p>
+        <p class="lh-copy">
+          Furthermore, in order to make sure that Liza could be a standalone bot, I’d need to test out the language I used for her speech on users. This could be done through a Wizard-of-Oz technique, just by having several pre-written prompts, printed out and presenting them to users as they wrote their responses by paper.
+
+        </p>
+      </section>
+  </body>
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>jenny wen: facebook onboarding</title>
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.5.5/css/tachyons.min.css"/>
+    <link rel="stylesheet" href="assets/css/theme.css"/>
+    <link rel="stylesheet" href="assets/css/index.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body class="mw6 mw7-ns center serif fw4 silver f4 serif-body mv6">
+    <nav class="serif-body mw6 center fw4">
+      <a class="link dim dark-gray f5" href="index.html">jenny wen</a>
+    </nav>
+    <section class="tr mw6 center mt1 cf">
+      <h1 class="fw9 dark-gray serif f-subheadline">2<br> facebook onboarding</h1>
+      <p class="f5 gray lh-copy mw5 fr cf mb3">
+        Designing with inclusivity in mind is not a new concept. As interfaces become ever more pervasive in the human world, however, inclusion reaches beyond accessibility and usability, and into efforts be more human and considerate.
+      </p>
+    </section>
+
+    <section class="cf mw7">
+      <h3 class="f2 lh-copy fw2 i dark-gray">
+        How might application settings be redesigned to be more inclusive?
+      </h3>
+    </section>
+
+    <section class="center mw6 cf">
+      <h2 class="f1 f-subheadline serif dark-gray">design question</h2>
+      <p class="lh-copy"> In <a class="link underline dim silver" href="case-study-2-inclusion.html">Wayfinding and Augmented Reality</a>, I finished up with the question above. But when I started looking around at the apps I used on a day-to-day, I found that a lot of the settings panels I dealt with asked for very little personal information, anyway. I did find however, one day when I was randomly logged out of my Facebook account, that I was curious about the onboarding process on Facebook, so I decided to go through the process and take a stab at it.</p>
+    </section>
+
+    <section class="cf mw7">
+      <h3 class="f2 lh-copy fw2 i dark-gray">
+        How can we redesign Facebook’s sign-up page to be more inclusive?
+      </h3>
+    </section>
+
+    <section class="center mw6 cf">
+      <h2 class="f1 f-subheadline serif dark-gray">onboarding teardown</h2>
+      <p class="lh-copy">Inspired by <a class="link underline dim silver" href="https://www.useronboard.com/">UserOnboard’s</a> teardowns of popular app onboarding processes, and the need to discover areas for improvement, I went through the process of actually signing up for a new Facebook account in order to find its pain points.</p>
+    </section>
+
+    <section class="mw7 mv3 center fr cf">
+      <img src="assets/img/prototype-inclusion/fb-1.png" />
+    </section>
+
+    <section class="center mw6 cf">
+      <p class="lh-copy">Looking at the initial screen, I think I get the perspective that Facebook knows that not a lot of people see this page anymore (I’m guessing most people don’t log out often), given the number of users Facebook has (like, the whole freakin’ world), and how much user acquisition isn’t really their biggest priority anymore. Nonetheless, I thought it was still worthwhile to think about how this onboarding process could be more inclusive, especially since latecomers to Facebook might also be latecomers to internet access, and they might be people who are marginalized, or use the internet in a very different way than we do.</p>
+    </section>
+
+    <section class="mw7 mv3 center fr cf">
+      <img src="assets/img/prototype-inclusion/fb-2.png" />
+    </section>
+
+    <section class="center mw6 cf">
+      <p class="lh-copy">It’s interesting that although Facebook lets people choose non-binary genders through their Settings, the onboarding flow requires a binary radio-button selection. I do really like that "Female” is slotted first, against convention where it’s typically “Male”, then “Female.” Similar to studies that have found that many forms that actually have a higher proportion of female users, despite sequencing titles “Mr” then “Ms”, I’m curious whether Facebook did this out of fighting convention, or if data also supported the decision.</p>
+    </section>
+
+    <section class="mw7 mv3 center fr cf">
+      <img src="assets/img/prototype-inclusion/fb-3.png" />
+      <img src="assets/img/prototype-inclusion/fb-4.png" />
+    </section>
+
+    <section class="center mw6 cf">
+      <p class="lh-copy">
+        I’m guessing Facebook serves the page’s language based on a user’s location, but the option to change languages seems awfully non-descript for a global social network. I also noticed that all other languages have a different graphic on the left side than the English (US) version.
+      </p>
+      <p class="lh-copy">
+        Once I’m past the first screen, and all filled in, I get to a setup flow to add friends like the one below. It seems strange to me that the only email services shown to me are Outlook.com, Yahoo, and Windows Live Messenger (…didn’t Microsoft sunset Windows Live Messenger a few years ago in favour of Skype?). I wondered if new users from other countries are shown other mail services based on the domain of the email they signed up with, or the language they selected. In any case, these integrations should better represent the diverse array of services a new Facebook user might use.
+      </p>
+    </section>
+
+    <section class="mw7 mv3 center fr cf">
+      <img src="assets/img/prototype-inclusion/fb-5.png" />
+      <img src="assets/img/prototype-inclusion/fb-6.png" />
+    </section>
+
+    <section class="center mw6 cf">
+      <h2 class="f1 f-subheadline serif dark-gray">design improvements</h2>
+      <p class="lh-copy">I identified the necessary components for signup (e.g. name, mobile number/email, password, etc.), and decided that most of these were necessary in order for Facebook to build some form of trust with their new user. I did notice, however, that it doesn’t seem like knowing someone’s gender is absolutely necessary. So instead, I’ll try asking for a gender pronoun instead, just so Facebook can keep using the pronoun for status updates like “Tell her congratulations!”</p>
+    </section>
+
+    <section class="mw7 mv3 center fr cf">
+      <img src="assets/img/prototype-inclusion/improvements-1.png" />
+    </section>
+
+    <section class="center mw6 cf">
+      <p class="lh-copy">
+        Based on the teardown above, these were the changes I wanted to try to make:
+      </p>
+      <ul class="lh-copy list pl0">
+        <li>Check WCAG 2.0 requirements</li>
+        <li>Maybe make it easier for people to switch languages, despite location tracking</li>
+        <li>Add icons for redundancy on form fields for people who might be new at a language, but make sure these are culturally relevant</li>
+        <li>Set gender pronouns instead of gender, and be non-binary about this (not just “he”/”she”, but also “they”)</li>
+        <li>Look into labelling form fields using WCAG standards</li>
+      </ul>
+      <h3 class="f3 lh-title dark-gray fw4">WCAG guidelines</h3>
+      <p class="lh-copy">
+        I checked the WCAG 2.0 guidelines, using <a class="link underline dim silver" href="http://accessible-colors.com/">Accessible Colours</a>, and found that the existing gray-on-blue colour scheme that Facebook was using isn’t AAA compliant (the highest standard for accessibility). So, I went ahead and used the suggested colour based on the recommendation.
+      </p>
+    </section>
+
+    <section class="mw7 mv3 center fr cf">
+      <img src="assets/img/prototype-inclusion/wcag.png" />
+    </section>
+
+    <section class="center mw6 cf">
+      <h2 class="f1 f-subheadline serif dark-gray">concepts</h2>
+    </section>
+
+    <section class="mw7 mv3 center fr cf">
+      <img src="assets/img/prototype-inclusion/concepts.png" />
+    </section>
+
+    <section class="center mw6 cf">
+      <p class="lh-copy">
+        Along with the inclusivity improvements I came up with, I also wanted to take the opportunity to improve the overall design of the page and see if there were changes to Facebook’s message that could promote it as a more inclusive social network, so I came up with a few rough concepts (above).
+      </p>
+      <p class="lh-copy">
+        I started creating these into more concrete concepts, and got some feedback.
+      </p>
+    </section>
+
+    <section class="mw7 mv3 center fr cf">
+      <img src="assets/img/prototype-inclusion/mockups-1.png" />
+    </section>
+
+    <section class="center mw6 cf">
+      <p class="lh-copy">
+        The concepts are of varying levels of fidelity and really acted more like iterations. Based on feedback I got from friends, I leaned towards the last concept because it provided better insight into what an experience might actually be like once someone’s signed up for Facebook. Also, there was the potential to customize the “Trending Now” section based on where someone is in the world, and the language they choose. In all instances, it made sense for the language switcher to be moved up on the screen. With that in mind, I worked on refining that concept.
+      </p>
+    </section>
+
+    <section class="mw7 mv3 center fr cf">
+      <img src="assets/img/prototype-inclusion/mockups-2.png" />
+      <img src="assets/img/prototype-inclusion/mockups-3.png" />
+    </section>
+
+    <section class="center mw6 cf">
+      <p class="lh-copy">
+        (I Google Translated a lot of the Spanish on this page, so it probably doesn’t make any sense…)
+      </p>
+      <h3 class="f3 lh-title dark-gray fw4">Internationalization + localization</h3>
+      <p class="lh-copy">
+        In order to design for the interface to be localized, I made sure that no strings were attached to images. Also, to make sure that the interface isn’t just North America-centric, the “Trending now” section
+      </p>
+      <h3 class="f3 lh-title dark-gray fw4">Accessibility</h3>
+      <p class="lh-copy">I ensured that the font sizes and colours I used aligned to WCAG 2.0 standards, and provided an ample amount of contrast by removing the blue background.</p>
+
+      <h2 class="f1 f-subheadline serif dark-gray">next steps</h2>
+      <h3 class="f3 lh-title dark-gray fw4">User testing</h3>
+      <p class="lh-copy">
+        Ideally, I’d like to test out the interface to a large group of people—individually to marginalized people (people who don’t really use like, smartphones and the internet on a daily basis), and on a larger scale, running A/B tests on the type of content that’s there, and particularly the copy addressing gender pronouns. I wonder if in other countries and cultures, they’d be as open to the idea of allowing different and new gender pronouns.
+      </p>
+      <h3 class="f3 lh-title dark-gray fw4">Internationalization</h3>
+      <p class="lh-copy">
+        Since I’m not really fluent in any other languages, I wasn’t able to test out what how the interface would hold up on languages that weren’t alphabetical, or aren’t read left to right.
+      </p>
+      <h3 class="f3 lh-title dark-gray fw4">Sensitive interactions</h3>
+      <p class="lh-copy">The only source of potentially sensitive interactions would be in the Trending News section. In order to implement this, certain types of news might need to be filtered out—maybe violent news, tragic events, etc. It might make sense to have these sorts of topics inside the actual Facebook experience, but they don’t need to be front and centre as someone signs up.</p>
+
+    </section>
+  </body>
+</html>
